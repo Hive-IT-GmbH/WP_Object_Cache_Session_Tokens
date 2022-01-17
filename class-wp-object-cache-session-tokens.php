@@ -87,7 +87,7 @@ class WP_Object_Cache_Session_Tokens extends WP_Session_Tokens {
 	}
 
 	/**
-	 * Updates the user's sessions in the usermeta table.
+	 * Updates the user's sessions in the object cache.
 	 *
 	 * @since 1.0.0
 	 *

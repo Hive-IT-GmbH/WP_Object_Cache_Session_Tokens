@@ -134,6 +134,3 @@ class WP_Object_Cache_Session_Tokens extends WP_Session_Tokens {
 		}
 	}
 }
-
-// Setup this Session Storage Backend
-add_filter( 'session_token_manager', function() { return 'WP_Object_Cache_Session_Tokens'; }, 0, 1 );

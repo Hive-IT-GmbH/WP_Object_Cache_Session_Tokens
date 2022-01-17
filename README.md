@@ -7,7 +7,8 @@ It also makes sure to avoid concurrency issues with `user_meta` and Object Cache
 **Make sure you have a persistent Object Cache installed and activated!**
 _Like WP-Redis, Object Cache Pro, ..._
 
-1. Drop the `class-wp-object-cache-session-tokens.php` file into your `wp-content/mu-plugins` folder
+1. Checkout this repository into your `mu-plugins` folder
+2. Use any of the available `mu-autoloader` to auto init the new Caching interface
 
 Now you are all set.
 
